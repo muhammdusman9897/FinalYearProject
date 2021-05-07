@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Usman</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>411</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>411</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>login-img.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>SER-LOGO.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>0</y>
+     <width>391</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #FFFFFF</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLineEdit" name="fNameLbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string> FirstName</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignupBtn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>500</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto,sans-serif</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:0.2em;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3b5998;
+text-align:center;
+}
+QPushButton:hover{
+background-color:#324a80;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Caslon Pro Bold</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sign Up to your account</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="universityLbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>University</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>avatar2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lNameLbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+    </property>
+    <property name="placeholderText">
+     <string> LastName</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailLbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignInBtn">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>560</y>
+      <width>231</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:0px solid;
+}
+QPushButton:hover{
+text-decoration: underline;}</string>
+    </property>
+    <property name="text">
+     <string>Already Register? Click here to signin</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pwdLbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

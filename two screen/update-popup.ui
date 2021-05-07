@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>399</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	color:  rgb(56, 150, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Change Activity</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>49</y>
+     <width>371</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background: rgb(94, 170, 255, 150);
+	border: 1px solid black;
+	border-radius: 10px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <weight>25</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox{
+	font-weight: 200;
+	color: white;
+	font-family:'Roboto';
+}
+
+QCheckBox:hover{
+	font-weight: 500; 
+	color: rgb(245, 245, 245);
+}</string>
+    </property>
+    <property name="text">
+     <string>Increment Activity</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto,sans-serif</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:0.2em;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3b5998;
+text-align:center;
+}
+QPushButton:hover{
+background-color:#324a80;
+font-weight: 490;
+}</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none; border: none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>-8</x>
+       <y>0</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none; color: white; font-family:'Roboto';</string>
+     </property>
+     <property name="text">
+      <string>Activity Name</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>0</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+     </property>
+     <property name="placeholderText">
+      <string> New Activity</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none; border: none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>0</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none; color: white; font-family:'Roboto';</string>
+     </property>
+     <property name="text">
+      <string>Addition</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none; color: white; font-family:'Roboto';</string>
+     </property>
+     <property name="text">
+      <string>Current Activity</string>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg5.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>frame_3</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

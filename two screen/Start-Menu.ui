@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>-5</x>
+     <y>1</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg5.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>371</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background: rgb(94, 170, 255, 150);
+	border: 1px solid black;
+	border-radius: 10px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="DialogStartBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>110</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:0.2em;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3b5998;
+text-align:center;
+}
+QPushButton:hover{
+background-color:#324a80;
+font-weight: 490;
+}</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>331</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none; border: none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>17</x>
+       <y>30</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid;
+color:white; background: #5b96f5;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>OOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SRE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Software Engineering</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>7</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>62</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: none; border: none; font-size: 12px; font-weight: 500;</string>
+     </property>
+     <property name="text">
+      <string>Select Course</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none; background: none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QCheckBox" name="checkBox_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>7</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox{
+	font-weight: 200;
+	color: black;
+	font-family:'Roboto';
+}
+
+QCheckBox:hover{
+	font-weight: 700; 
+	color: rgb(100, 100, 100);
+}</string>
+     </property>
+     <property name="text">
+      <string>Alow Notification</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>7</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox{
+	font-weight: 200;
+	color: black;
+	font-family:'Roboto';
+}
+
+QCheckBox:hover{
+	font-weight: 700; 
+	color: rgb(100, 100, 100);
+}</string>
+     </property>
+     <property name="text">
+      <string>Allow Gesture</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>frame_4</zorder>
+   <zorder>frame</zorder>
+   <zorder>DialogStartBtn</zorder>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>11</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	color:  rgb(56, 150, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Start System</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

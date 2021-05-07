@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>210</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	color:  rgb(56, 150, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Search Student</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>49</y>
+     <width>371</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background: rgb(94, 170, 255, 150);
+	border: 1px solid black;
+	border-radius: 10px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>200</y>
+      <width>90</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto,sans-serif</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:0.2em;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3b5998;
+text-align:center;
+}
+QPushButton:hover{
+background-color:#324a80;
+font-weight: 490;
+}</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>351</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none; border: none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>7</y>
+       <width>151</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+  border-radius: 4px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Student Name</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>209</x>
+       <y>6</y>
+       <width>101</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Roboto,sans-serif</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:0.2em;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3b5998;
+text-align:center;
+}
+QPushButton:hover{
+background-color:#324a80;
+font-weight: 490;
+}</string>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>351</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 15px;</string>
+    </property>
+    <property name="title">
+     <string>Results</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>19</y>
+       <width>331</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(0, 0, 0, 0); border: none;</string>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>331</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <widget class="QFrame" name="frame_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>321</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size: 11px;</string>
+        </property>
+        <property name="text">
+         <string>No Results...</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg5.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>label</zorder>
+  <zorder>frame_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
